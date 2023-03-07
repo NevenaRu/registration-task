@@ -178,7 +178,7 @@ export default {
 
     async createUser() {
       await httpService.createUser(this.user).then(() => {
-        alert("Hello! I am an alert box!");
+        alert("User created");
       });
     },
   },
